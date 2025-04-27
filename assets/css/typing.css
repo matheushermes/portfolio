@@ -1,0 +1,11 @@
+/* Efeito de máquina de escrever */
+.typewriter-effect {
+    display: inline-block;
+    overflow: hidden;
+    white-space: normal;
+  }
+  
+  .cursor {
+    color: #0038FF;  /* Cor do cursor */
+    font-weight: bold;
+  }
