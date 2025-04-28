@@ -119,38 +119,28 @@
 
                 <div class="grid gap-12 md:grid-cols-2">
                     <div class="flex items-center justify-center">
-                        <div class="relative h-64 w-64 overflow-hidden rounded-full border-4 border-primary md:h-80 md:w-80">
-                            <img src="/api/placeholder/400/400" alt="Sua foto" class="h-full w-full object-cover" />
-                            <div class="absolute inset-0 rounded-full bg-gradient-to-tl from-primary/30 to-transparent"></div>
-                            <!-- Tech icons around photo -->
-                            <div class="absolute -right-6 top-12 rounded-full bg-gray-800 p-3 shadow-lg">
-                                <i class="fa-brands fa-react text-2xl text-blue-400"></i>
-                            </div>
-                            <div class="absolute -left-6 bottom-12 rounded-full bg-gray-800 p-3 shadow-lg">
-                                <i class="fa-brands fa-node-js text-2xl text-green-500"></i>
-                            </div>
-                            <div class="absolute -bottom-6 left-1/2 -translate-x-1/2 rounded-full bg-gray-800 p-3 shadow-lg">
-                                <i class="fa-brands fa-js text-2xl text-yellow-400"></i>
-                            </div>
+                        <div class="relative h-80 w-80 overflow-hidden rounded-full border-4 border-primary md:h-96 md:w-96">
+                            <img src="assets/imgs/photo-th.png" alt="Sua foto" class="h-full w-full object-cover" />
+                            <div class="absolute inset-0 rounded-full bg-black/50 from-primary/30 to-transparent"></div>
                         </div>
                     </div>
 
                     <div class="flex flex-col justify-center">
                         <p class="mb-6 text-lg text-gray-300">
-                            Desenvolvedor de Software apaixonado por criar soluções digitais inovadoras. Com foco em desenvolvimento web moderno, utilizo as melhores tecnologias para entregar experiências excepcionais.
+                            Sou Desenvolvedor de Software apaixonado por criar soluções digitais que impactam positivamente as pessoas. Especializado em desenvolvimento web, mobile e automações, busco entregar experiências excepcionais com as melhores tecnologias.
                         </p>
                         <p class="mb-6 text-lg text-gray-300">
-                            Atualmente trabalho com desenvolvimento Front-end e Back-end, sempre em busca de novos desafios e aprendizados. Me considero ágil, adaptável e pronto para enfrentar qualquer desafio tecnológico.
+                            Atuo no Front-end, Back-end e em soluções de Inteligência Artificial Conversacional, sempre unindo tecnologia, design e inovação para garantir a melhor experiência ao usuário. Tenho facilidade para colaborar em equipes e projetos, com foco em resultados e excelência.
                         </p>
 
                         <ul class="mb-8 space-y-3">
                             <li class="flex items-center">
                                 <span class="mr-2 inline-block h-3 w-3 rounded-full bg-primary"></span>
-                                <span class="text-gray-300">Front-end <span class="text-gray-400">(React, Next.js, Tailwind CSS)</span></span>
+                                <span class="text-gray-300">Front-end <span class="text-gray-400">(HTML, CSS, React, Next.js, Tailwind CSS)</span></span>
                             </li>
                             <li class="flex items-center">
                                 <span class="mr-2 inline-block h-3 w-3 rounded-full bg-primary"></span>
-                                <span class="text-gray-300">Back-end <span class="text-gray-400">(Node.js, Express, MongoDB)</span></span>
+                                <span class="text-gray-300">Back-end <span class="text-gray-400">(Node.js, Express, MongoDB, Go (Golang), Gin)</span></span>
                             </li>
                             <li class="flex items-center">
                                 <span class="mr-2 inline-block h-3 w-3 rounded-full bg-primary"></span>
@@ -159,6 +149,10 @@
                             <li class="flex items-center">
                                 <span class="mr-2 inline-block h-3 w-3 rounded-full bg-primary"></span>
                                 <span class="text-gray-300">UI/UX <span class="text-gray-400">(Figma, Design Systems)</span></span>
+                            </li>
+                            <li class="flex items-center">
+                                <span class="mr-2 inline-block h-3 w-3 rounded-full bg-primary"></span>
+                                <span class="text-gray-300">IA Conversacional <span class="text-gray-400">(Cognigy, Ollama, e outras)</span></span>
                             </li>
                         </ul>
 
@@ -187,10 +181,16 @@
                 </div>
 
                 <div class="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6">
-                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="HTML/CSS">
+                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="HTML">
                         <div class="flex h-full w-full flex-col items-center justify-center">
                             <i class="fa-brands fa-html5 mb-3 text-4xl text-orange-500 transition-all group-hover:scale-110"></i>
-                            <p class="text-gray-300">HTML/CSS</p>
+                            <p class="text-gray-300">HTML</p>
+                        </div>
+                    </div>
+                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="CSS">
+                        <div class="flex h-full w-full flex-col items-center justify-center">
+                            <i class="fa-brands fa-css3-alt mb-3 text-4xl text-blue-400 transition-all group-hover:scale-110"></i>
+                            <p class="text-gray-300">CSS</p>
                         </div>
                     </div>
                     <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="JavaScript">
@@ -205,10 +205,28 @@
                             <p class="text-gray-300">React</p>
                         </div>
                     </div>
+                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="Next.js">
+                        <div class="flex h-full w-full flex-col items-center justify-center">
+                            <i class="fa-brands fa-react mb-3 text-4xl text-white transition-all group-hover:scale-110"></i> <!-- Usando react icon para Next.js -->
+                            <p class="text-gray-300">Next.js</p>
+                        </div>
+                    </div>
                     <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="Node.js">
                         <div class="flex h-full w-full flex-col items-center justify-center">
                             <i class="fa-brands fa-node-js mb-3 text-4xl text-green-500 transition-all group-hover:scale-110"></i>
                             <p class="text-gray-300">Node.js</p>
+                        </div>
+                    </div>
+                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="Golang">
+                        <div class="flex h-full w-full flex-col items-center justify-center">
+                            <i class="fa-brands fa-golang mb-3 text-4xl text-blue-500 transition-all group-hover:scale-110"></i> <!-- Ícone fictício, Golang real não tem no FontAwesome -->
+                            <p class="text-gray-300">Golang</p>
+                        </div>
+                    </div>
+                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="Tailwind CSS">
+                        <div class="flex h-full w-full flex-col items-center justify-center">
+                            <i class="fa-solid fa-wind mb-3 text-4xl text-teal-400 transition-all group-hover:scale-110"></i> <!-- Usando wind como símbolo -->
+                            <p class="text-gray-300">Tailwind CSS</p>
                         </div>
                     </div>
                     <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="Git">
@@ -223,44 +241,46 @@
                             <p class="text-gray-300">UI/UX</p>
                         </div>
                     </div>
+                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="Inteligência Artificial">
+                        <div class="flex h-full w-full flex-col items-center justify-center">
+                            <i class="fa-solid fa-robot mb-3 text-4xl text-pink-400 transition-all group-hover:scale-110"></i> <!-- Ícone de robô para IA -->
+                            <p class="text-gray-300">IA</p>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Skill Level Bars -->
+                <!-- Skill Level Bars (sem %) -->
                 <div class="mt-16 rounded-xl bg-gray-800/50 p-6">
                     <div class="mb-6">
                         <div class="mb-2 flex justify-between">
                             <span class="text-gray-300">Front-end</span>
-                            <span class="text-primary">90%</span>
                         </div>
                         <div class="h-2 w-full overflow-hidden rounded-full bg-gray-700">
-                            <div class="h-full w-[90%] rounded-full bg-gradient-to-r from-primary to-secondary"></div>
+                            <div class="h-full w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
                         </div>
                     </div>
                     <div class="mb-6">
                         <div class="mb-2 flex justify-between">
                             <span class="text-gray-300">Back-end</span>
-                            <span class="text-primary">80%</span>
                         </div>
                         <div class="h-2 w-full overflow-hidden rounded-full bg-gray-700">
-                            <div class="h-full w-[80%] rounded-full bg-gradient-to-r from-primary to-secondary"></div>
+                            <div class="h-full w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
                         </div>
                     </div>
                     <div class="mb-6">
                         <div class="mb-2 flex justify-between">
                             <span class="text-gray-300">UI/UX Design</span>
-                            <span class="text-primary">75%</span>
                         </div>
                         <div class="h-2 w-full overflow-hidden rounded-full bg-gray-700">
-                            <div class="h-full w-[75%] rounded-full bg-gradient-to-r from-primary to-secondary"></div>
+                            <div class="h-full w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
                         </div>
                     </div>
                     <div>
                         <div class="mb-2 flex justify-between">
                             <span class="text-gray-300">Mobile Development</span>
-                            <span class="text-primary">70%</span>
                         </div>
                         <div class="h-2 w-full overflow-hidden rounded-full bg-gray-700">
-                            <div class="h-full w-[70%] rounded-full bg-gradient-to-r from-primary to-secondary"></div>
+                            <div class="h-full w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
                         </div>
                     </div>
                 </div>
