@@ -173,116 +173,80 @@
         <section id="skills" class="bg-gray-900/30 py-20">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
                 <div class="mb-16 text-center">
-                    <h2 class="relative mb-4 inline-block text-3xl font-bold text-white md:text-4xl">
-                        Skills
-                        <span class="absolute -bottom-2 left-0 h-1 w-full bg-gradient-to-r from-primary to-secondary"></span>
-                    </h2>
-                    <p id="skill-description" class="mt-6 text-lg text-gray-400">Passe o mouse sobre uma skill para ver detalhes</p>
+                <h2 class="relative mb-4 inline-block text-4xl font-bold text-white md:text-5xl">
+                    Skills
+                    <span class="absolute -bottom-2 left-0 h-1 w-full bg-gradient-to-r from-primary to-secondary"></span>
+                </h2>
+                <p class="text-lg text-gray-400">Conheça minhas principais habilidades técnicas</p>
                 </div>
-
-                <div class="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-6">
-                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="HTML">
-                        <div class="flex h-full w-full flex-col items-center justify-center">
-                            <i class="fa-brands fa-html5 mb-3 text-4xl text-orange-500 transition-all group-hover:scale-110"></i>
-                            <p class="text-gray-300">HTML</p>
-                        </div>
-                    </div>
-                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="CSS">
-                        <div class="flex h-full w-full flex-col items-center justify-center">
-                            <i class="fa-brands fa-css3-alt mb-3 text-4xl text-blue-400 transition-all group-hover:scale-110"></i>
-                            <p class="text-gray-300">CSS</p>
-                        </div>
-                    </div>
-                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="JavaScript">
-                        <div class="flex h-full w-full flex-col items-center justify-center">
-                            <i class="fa-brands fa-js mb-3 text-4xl text-yellow-400 transition-all group-hover:scale-110"></i>
-                            <p class="text-gray-300">JavaScript</p>
-                        </div>
-                    </div>
-                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="React">
-                        <div class="flex h-full w-full flex-col items-center justify-center">
-                            <i class="fa-brands fa-react mb-3 text-4xl text-blue-400 transition-all group-hover:scale-110"></i>
-                            <p class="text-gray-300">React</p>
-                        </div>
-                    </div>
-                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="Next.js">
-                        <div class="flex h-full w-full flex-col items-center justify-center">
-                            <i class="fa-brands fa-react mb-3 text-4xl text-white transition-all group-hover:scale-110"></i> <!-- Usando react icon para Next.js -->
-                            <p class="text-gray-300">Next.js</p>
-                        </div>
-                    </div>
-                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="Node.js">
-                        <div class="flex h-full w-full flex-col items-center justify-center">
-                            <i class="fa-brands fa-node-js mb-3 text-4xl text-green-500 transition-all group-hover:scale-110"></i>
-                            <p class="text-gray-300">Node.js</p>
-                        </div>
-                    </div>
-                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="Golang">
-                        <div class="flex h-full w-full flex-col items-center justify-center">
-                            <i class="fa-brands fa-golang mb-3 text-4xl text-blue-500 transition-all group-hover:scale-110"></i> <!-- Ícone fictício, Golang real não tem no FontAwesome -->
-                            <p class="text-gray-300">Golang</p>
-                        </div>
-                    </div>
-                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="Tailwind CSS">
-                        <div class="flex h-full w-full flex-col items-center justify-center">
-                            <i class="fa-solid fa-wind mb-3 text-4xl text-teal-400 transition-all group-hover:scale-110"></i> <!-- Usando wind como símbolo -->
-                            <p class="text-gray-300">Tailwind CSS</p>
-                        </div>
-                    </div>
-                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="Git">
-                        <div class="flex h-full w-full flex-col items-center justify-center">
-                            <i class="fa-brands fa-git-alt mb-3 text-4xl text-orange-600 transition-all group-hover:scale-110"></i>
-                            <p class="text-gray-300">Git</p>
-                        </div>
-                    </div>
-                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="UI/UX">
-                        <div class="flex h-full w-full flex-col items-center justify-center">
-                            <i class="fa-solid fa-pen-nib mb-3 text-4xl text-purple-500 transition-all group-hover:scale-110"></i>
-                            <p class="text-gray-300">UI/UX</p>
-                        </div>
-                    </div>
-                    <div class="skill-item group h-32 cursor-pointer rounded-xl bg-gray-800/50 p-4 text-center transition-all hover:bg-gray-800" data-skill="Inteligência Artificial">
-                        <div class="flex h-full w-full flex-col items-center justify-center">
-                            <i class="fa-solid fa-robot mb-3 text-4xl text-pink-400 transition-all group-hover:scale-110"></i> <!-- Ícone de robô para IA -->
-                            <p class="text-gray-300">IA</p>
-                        </div>
-                    </div>
+            
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Texto Descrição -->
+                <div class="flex flex-col justify-center">
+                    <h3 id="skill-title" class="mb-4 text-3xl font-bold text-primary transition-all">Passe o mouse sobre uma skill</h3>
+                    <p id="skill-description" class="text-lg text-gray-400 transition-all">
+                    Quando você passar o mouse sobre uma skill, verá aqui uma descrição detalhada sobre minha experiência naquela tecnologia.
+                    </p>
                 </div>
-
-                <!-- Skill Level Bars (sem %) -->
-                <div class="mt-16 rounded-xl bg-gray-800/50 p-6">
-                    <div class="mb-6">
-                        <div class="mb-2 flex justify-between">
-                            <span class="text-gray-300">Front-end</span>
-                        </div>
-                        <div class="h-2 w-full overflow-hidden rounded-full bg-gray-700">
-                            <div class="h-full w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
-                        </div>
-                    </div>
-                    <div class="mb-6">
-                        <div class="mb-2 flex justify-between">
-                            <span class="text-gray-300">Back-end</span>
-                        </div>
-                        <div class="h-2 w-full overflow-hidden rounded-full bg-gray-700">
-                            <div class="h-full w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
-                        </div>
-                    </div>
-                    <div class="mb-6">
-                        <div class="mb-2 flex justify-between">
-                            <span class="text-gray-300">UI/UX Design</span>
-                        </div>
-                        <div class="h-2 w-full overflow-hidden rounded-full bg-gray-700">
-                            <div class="h-full w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="mb-2 flex justify-between">
-                            <span class="text-gray-300">Mobile Development</span>
-                        </div>
-                        <div class="h-2 w-full overflow-hidden rounded-full bg-gray-700">
-                            <div class="h-full w-full rounded-full bg-gradient-to-r from-primary to-secondary"></div>
-                        </div>
-                    </div>
+            
+                <!-- Botões de Skills -->
+                <div class="grid grid-cols-2 gap-6 sm:grid-cols-3">
+                    <!-- Cada Skill -->
+                    <button class="skill-btn group flex flex-col items-center justify-center rounded-xl bg-gray-800/50 p-6 text-center transition-all hover:scale-105 hover:bg-gray-700"  data-skill="HTML">
+                    <img src="https://cdn.simpleicons.org/html5/FF5722" class="mb-2 h-12 w-12" alt="HTML Icon" />
+                    <span class="text-gray-300">HTML</span>
+                    </button>
+            
+                    <button class="skill-btn group flex flex-col items-center justify-center rounded-xl bg-gray-800/50 p-6 text-center transition-all hover:scale-105 hover:bg-gray-700" data-skill="CSS">
+                    <img src="https://cdn.simpleicons.org/css3/2196F3" class="mb-2 h-12 w-12" alt="CSS Icon" />
+                    <span class="text-gray-300">CSS</span>
+                    </button>
+            
+                    <button class="skill-btn group flex flex-col items-center justify-center rounded-xl bg-gray-800/50 p-6 text-center transition-all hover:scale-105 hover:bg-gray-700" data-skill="JavaScript">
+                    <img src="https://cdn.simpleicons.org/javascript/F7DF1E" class="mb-2 h-12 w-12" alt="JavaScript Icon" />
+                    <span class="text-gray-300">JavaScript</span>
+                    </button>
+            
+                    <button class="skill-btn group flex flex-col items-center justify-center rounded-xl bg-gray-800/50 p-6 text-center transition-all hover:scale-105 hover:bg-gray-700" data-skill="React">
+                    <img src="https://cdn.simpleicons.org/react/61DAFB" class="mb-2 h-12 w-12" alt="React Icon" />
+                    <span class="text-gray-300">React</span>
+                    </button>
+            
+                    <button class="skill-btn group flex flex-col items-center justify-center rounded-xl bg-gray-800/50 p-6 text-center transition-all hover:scale-105 hover:bg-gray-700" data-skill="Next.js">
+                    <img src="https://cdn.simpleicons.org/nextdotjs/000000" class="mb-2 h-12 w-12" alt="Next.js Icon" />
+                    <span class="text-gray-300">Next.js</span>
+                    </button>
+            
+                    <button class="skill-btn group flex flex-col items-center justify-center rounded-xl bg-gray-800/50 p-6 text-center transition-all hover:scale-105 hover:bg-gray-700" data-skill="Node.js">
+                    <img src="https://cdn.simpleicons.org/nodedotjs/68A063" class="mb-2 h-12 w-12" alt="Node.js Icon" />
+                    <span class="text-gray-300">Node.js</span>
+                    </button>
+            
+                    <button class="skill-btn group flex flex-col items-center justify-center rounded-xl bg-gray-800/50 p-6 text-center transition-all hover:scale-105 hover:bg-gray-700" data-skill="Golang">
+                    <img src="https://cdn.simpleicons.org/go/00ADD8" class="mb-2 h-12 w-12" alt="Golang Icon" />
+                    <span class="text-gray-300">Golang</span>
+                    </button>
+            
+                    <button class="skill-btn group flex flex-col items-center justify-center rounded-xl bg-gray-800/50 p-6 text-center transition-all hover:scale-105 hover:bg-gray-700" data-skill="Tailwind CSS">
+                    <img src="https://cdn.simpleicons.org/tailwindcss/38BDF8" class="mb-2 h-12 w-12" alt="Tailwind CSS Icon" />
+                    <span class="text-gray-300">Tailwind CSS</span>
+                    </button>
+            
+                    <button class="skill-btn group flex flex-col items-center justify-center rounded-xl bg-gray-800/50 p-6 text-center transition-all hover:scale-105 hover:bg-gray-700" data-skill="IA">
+                    <img src="https://cdn.simpleicons.org/openai/FFFFFF" class="mb-2 h-12 w-12" alt="IA Icon" />
+                    <span class="text-gray-300">IA</span>
+                    </button>
+            
+                    <button class="skill-btn group flex flex-col items-center justify-center rounded-xl bg-gray-800/50 p-6 text-center transition-all hover:scale-105 hover:bg-gray-700" data-skill="UI/UX">
+                    <img src="https://cdn.simpleicons.org/figma/F24E1E" class="mb-2 h-12 w-12" alt="UI/UX Icon" />
+                    <span class="text-gray-300">UI/UX</span>
+                    </button>
+            
+                    <button class="skill-btn group flex flex-col items-center justify-center rounded-xl bg-gray-800/50 p-6 text-center transition-all hover:scale-105 hover:bg-gray-700" data-skill="Git">
+                    <img src="https://cdn.simpleicons.org/git/F05032" class="mb-2 h-12 w-12" alt="Git Icon" />
+                    <span class="text-gray-300">Git</span>
+                    </button>
+                </div>
                 </div>
             </div>
         </section>
@@ -684,32 +648,6 @@
             });
         });
 
-        // Skills description
-        const skillItems = document.querySelectorAll('.skill-item');
-        const skillDescription = document.getElementById('skill-description');
-
-        const skillData = {
-            'HTML/CSS': 'Criação de interfaces web utilizando HTML semântico e CSS moderno, incluindo Flexbox, Grid e animações.',
-            'JavaScript': 'Desenvolvimento de aplicações interativas com JavaScript puro e frameworks modernos como React.',
-            'React': 'Criação de interfaces de usuário utilizando o React, incluindo hooks, context API e gerenciamento de estado.',
-            'Node.js': 'Desenvolvimento de APIs RESTful e aplicações backend utilizando Node.js e Express.',
-            'Git': 'Controle de versão com Git, incluindo branching, merging e colaboração em equipes.',
-            'UI/UX': 'Design de interfaces e experiências de usuário com foco em usabilidade e acessibilidade.'
-        };
-
-        skillItems.forEach(item => {
-            item.addEventListener('mouseenter', () => {
-                const skill = item.getAttribute('data-skill');
-                skillDescription.textContent = skillData[skill];
-                skillDescription.classList.add('text-primary');
-            });
-
-            item.addEventListener('mouseleave', () => {
-                skillDescription.textContent = 'Passe o mouse sobre uma skill para ver detalhes';
-                skillDescription.classList.remove('text-primary');
-            });
-        });
-
         // Back to top button
         const backToTopButton = document.getElementById('back-to-top');
 
@@ -812,5 +750,6 @@
     <script src="assets/scripts/particles.js"></script>
     <script src="assets/scripts/menu.js"></script>
     <script src="assets/scripts/typing.js"></script>
+    <script src="assets/scripts/skills.js"></script>
 </body>
 </html>
