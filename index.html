@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/blink.css">
     <link rel="stylesheet" href="assets/css/typing.css">
+    <link rel="stylesheet" href="assets/css/ticker.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="assets/scripts/config.js"></script>
@@ -347,7 +348,7 @@
 
         <!-- Animated Ticker -->
         <div class="overflow-hidden bg-gradient-to-r from-primary/10 to-secondary/10 py-6">
-            <div class="flex animate-[marquee_25s_linear_infinite] whitespace-nowrap">
+            <div id="ticker" class="flex whitespace-nowrap">
                 <div class="mx-4 flex items-center text-xl font-semibold">
                     <span class="text-white">DEVELOPER</span>
                     <span class="mx-2 inline-block h-2 w-2 rounded-full bg-primary"></span>
@@ -369,6 +370,10 @@
                     <span class="mx-2 inline-block h-2 w-2 rounded-full bg-primary"></span>
                 </div>
                 <div class="mx-4 flex items-center text-xl font-semibold">
+                    <span class="text-white">IA</span>
+                    <span class="mx-2 inline-block h-2 w-2 rounded-full bg-primary"></span>
+                </div>
+                <div class="mx-4 flex items-center text-xl font-semibold">
                     <span class="text-white">DEVELOPER</span>
                     <span class="mx-2 inline-block h-2 w-2 rounded-full bg-primary"></span>
                 </div>
@@ -386,6 +391,10 @@
                 </div>
                 <div class="mx-4 flex items-center text-xl font-semibold">
                     <span class="text-white">UI/UX</span>
+                    <span class="mx-2 inline-block h-2 w-2 rounded-full bg-primary"></span>
+                </div>
+                <div class="mx-4 flex items-center text-xl font-semibold">
+                    <span class="text-white">IA</span>
                     <span class="mx-2 inline-block h-2 w-2 rounded-full bg-primary"></span>
                 </div>
             </div>
@@ -616,6 +625,7 @@
     <script src="assets/scripts/menu.js"></script>
     <script src="assets/scripts/typing.js"></script>
     <script src="assets/scripts/skills.js"></script>
+    <script src="assets/scripts/ticker.js"></script>
     <script src="assets/scripts/back-to-top.js"></script>
     <script src="assets/scripts/footer.js"></script>
 </body>
