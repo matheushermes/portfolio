@@ -1,4 +1,4 @@
-// Initialize vanilla tilt for cards
+//Inicializa a inclinação vanilla para cartas;
 VanillaTilt.init(document.querySelectorAll("[data-tilt]"), {
     max: 10,
     speed: 400,
@@ -6,9 +6,9 @@ VanillaTilt.init(document.querySelectorAll("[data-tilt]"), {
     "max-glare": 0.2,
 });
 
-// GSAP animations
+//Animações GSAP;
 document.addEventListener('DOMContentLoaded', () => {
-    // Header animations
+    //Animações header;
     gsap.from('#container-name p', {
         y: 50,
         opacity: 0,
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ease: 'power3.out'
     });
 
-    // Scroll animations
+    //Animação do scroll;
     gsap.registerPlugin(ScrollTrigger);
 
     gsap.utils.toArray('section').forEach(section => {
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Project cards animation
+    //Animação de cartões de projeto;
     gsap.from('.project', {
         opacity: 0,
         y: 30,
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Service cards animation
+    //Animação de cartões de serviço;
     gsap.from('.card', {
         opacity: 0,
         y: 30,
