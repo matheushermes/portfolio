@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ease: 'power3.out'
     });
 
-    gsap.from('#header-social-media a', {
+    gsap.from('#header-social-media a i', {
         y: 20,
         opacity: 0,
         duration: 0.8,

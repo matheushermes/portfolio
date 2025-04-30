@@ -77,17 +77,17 @@
 
         <!-- Hero Section -->
         <div class="relative flex min-h-screen flex-col items-center justify-center px-6 text-center">
-            <div class="z-10 mb-12 mt-20">
+            <div id="container-name" class="z-10 mb-12 mt-20">
                 <p class="mb-2 text-lg text-gray-400">Olá, me chamo</p>
                 <h1 class="mb-2 text-6xl font-extrabold text-white md:text-7xl">
                     <span class="block animate-pulse bg-gradient-to-r from-primary to-blue-300 bg-clip-text text-transparent">Matheus Santos</span>
                 </h1>
                 <div class="mx-auto h-12 overflow-hidden text-2xl font-semibold md:text-3xl">
-                    <div class="animate-typing">Software Developer</div>
+                    <div id="container-occupation" class="animate-typing">Software Developer</div>
                 </div>
             </div>
 
-            <div class="z-10 mt-6 flex justify-center space-x-6">
+            <div id="header-social-media" class="z-10 mt-6 flex justify-center space-x-6">
                 <a href="https://github.com/matheushermes" target="_blank" class="flex h-12 w-12 items-center justify-center rounded-full border border-gray-600 bg-gray-800/50 text-xl text-gray-300 transition-all hover:border-primary hover:text-primary">
                     <i class="fa-brands fa-github"></i>
                 </a>
@@ -262,7 +262,7 @@
                     </h2>
                 </div>
 
-                <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <div class="project grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                     <!-- Project 1 -->
                     <div class="group relative overflow-hidden rounded-xl bg-gray-800/50 shadow-lg transition-all hover:shadow-2xl">
                         <div class="relative h-64 overflow-hidden">
@@ -410,35 +410,23 @@
                     </h2>
                 </div>
 
-                <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-                    <!-- Service 1 -->
+                <div class="card grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+                    <!-- Desenvolvimento Front-end -->
                     <div class="card-glow group h-full rounded-xl bg-gray-800/50 p-6 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:bg-gray-800">
                         <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-secondary text-2xl text-white shadow-lg">
                             <i class="fa-solid fa-code"></i>
                         </div>
-                        <h3 class="mb-4 text-xl font-bold text-white">Desenvolvimento Web</h3>
-                        <p class="text-gray-400">Criação de sites responsivos, landing pages e aplicações web com as mais modernas tecnologias do mercado.</p>
+                        <h3 class="mb-4 text-xl font-bold text-white">Desenvolvimento Front-end</h3>
+                        <p class="text-gray-400">Criação de interfaces modernas e responsivas para sites e aplicações web com foco em performance e usabilidade.</p>
                         <ul class="mt-4 space-y-2 text-gray-400">
-                            <li class="flex items-center">
-                                <i class="fa-solid fa-check mr-2 text-primary"></i>
-                                <span>Sites institucionais</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fa-solid fa-check mr-2 text-primary"></i>
-                                <span>E-commerce</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fa-solid fa-check mr-2 text-primary"></i>
-                                <span>Landing pages</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fa-solid fa-check mr-2 text-primary"></i>
-                                <span>Web apps</span>
-                            </li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Sites institucionais</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>E-commerce</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Landing pages</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Web apps</li>
                         </ul>
                     </div>
 
-                    <!-- Service 2 -->
+                    <!-- Desenvolvimento Mobile -->
                     <div class="card-glow group h-full rounded-xl bg-gray-800/50 p-6 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:bg-gray-800">
                         <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-secondary text-2xl text-white shadow-lg">
                             <i class="fa-solid fa-mobile-screen"></i>
@@ -446,26 +434,14 @@
                         <h3 class="mb-4 text-xl font-bold text-white">Desenvolvimento Mobile</h3>
                         <p class="text-gray-400">Criação de aplicativos mobile para iOS e Android utilizando tecnologias multiplataforma de alta performance.</p>
                         <ul class="mt-4 space-y-2 text-gray-400">
-                            <li class="flex items-center">
-                                <i class="fa-solid fa-check mr-2 text-primary"></i>
-                                <span>Apps iOS e Android</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fa-solid fa-check mr-2 text-primary"></i>
-                                <span>Interface moderna</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fa-solid fa-check mr-2 text-primary"></i>
-                                <span>Experiência do usuário</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fa-solid fa-check mr-2 text-primary"></i>
-                                <span>Integração com APIs</span>
-                            </li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Apps iOS e Android</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Interface moderna</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Experiência do usuário</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Integração com APIs</li>
                         </ul>
                     </div>
 
-                    <!-- Service 3 -->
+                    <!-- UI/UX Design -->
                     <div class="card-glow group h-full rounded-xl bg-gray-800/50 p-6 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:bg-gray-800">
                         <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-secondary text-2xl text-white shadow-lg">
                             <i class="fa-solid fa-pen-ruler"></i>
@@ -473,28 +449,61 @@
                         <h3 class="mb-4 text-xl font-bold text-white">UI/UX Design</h3>
                         <p class="text-gray-400">Criação de interfaces modernas e experiências de usuário que encantam e facilitam a interação com seu produto.</p>
                         <ul class="mt-4 space-y-2 text-gray-400">
-                            <li class="flex items-center">
-                                <i class="fa-solid fa-check mr-2 text-primary"></i>
-                                <span>Wireframes e protótipos</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fa-solid fa-check mr-2 text-primary"></i>
-                                <span>Design de interfaces</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fa-solid fa-check mr-2 text-primary"></i>
-                                <span>User testing</span>
-                            </li>
-                            <li class="flex items-center">
-                                <i class="fa-solid fa-check mr-2 text-primary"></i>
-                                <span>Design systems</span>
-                            </li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Wireframes e protótipos</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Design de interfaces</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>User testing</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Design systems</li>
+                        </ul>
+                    </div>
+
+                    <!-- Desenvolvimento Back-end -->
+                    <div class="card-glow group h-full rounded-xl bg-gray-800/50 p-6 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:bg-gray-800">
+                        <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-secondary text-2xl text-white shadow-lg">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <h3 class="mb-4 text-xl font-bold text-white">Desenvolvimento Back-end</h3>
+                        <p class="text-gray-400">Criação de APIs, microsserviços e sistemas robustos com foco em escalabilidade e performance.</p>
+                        <ul class="mt-4 space-y-2 text-gray-400">
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>APIs REST e Webhooks</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Integrações entre sistemas</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Banco de dados SQL/NoSQL</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Serviços em nuvem</li>
+                        </ul>
+                    </div>
+
+                    <!-- Inteligência Artificial e LLMs -->
+                    <div class="card-glow group h-full rounded-xl bg-gray-800/50 p-6 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:bg-gray-800">
+                        <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-secondary text-2xl text-white shadow-lg">
+                            <i class="fa-solid fa-robot"></i>
+                        </div>
+                        <h3 class="mb-4 text-xl font-bold text-white">IA Conversacional & LLMs</h3>
+                        <p class="text-gray-400">Desenvolvimento de agentes inteligentes com uso de LLMs para atendimento, automação e suporte.</p>
+                        <ul class="mt-4 space-y-2 text-gray-400">
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Chatbots com IA generativa</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Integração com APIs de IA</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Fluxos de automação</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Atendimento inteligente 24h</li>
+                        </ul>
+                    </div>
+
+                    <!-- SEO -->
+                    <div class="card-glow group h-full rounded-xl bg-gray-800/50 p-6 shadow-lg transition-all duration-300 hover:-translate-y-2 hover:bg-gray-800">
+                        <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-primary to-secondary text-2xl text-white shadow-lg">
+                            <i class="fa-solid fa-chart-line"></i>
+                        </div>
+                        <h3 class="mb-4 text-xl font-bold text-white">SEO e Otimização</h3>
+                        <p class="text-gray-400">Melhoria de posicionamento nos motores de busca, otimização de performance e estratégias de conteúdo.</p>
+                        <ul class="mt-4 space-y-2 text-gray-400">
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>SEO On-page e técnico</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Performance e carregamento</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Estratégia de palavras-chave</li>
+                            <li class="flex items-center"><i class="fa-solid fa-check mr-2 text-primary"></i>Relatórios e métricas</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
-
+        
         <!-- Contact Section -->
         <section id="contato" class="relative py-20">
             <div class="absolute inset-0 z-0 opacity-20">
