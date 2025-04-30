@@ -1,14 +1,20 @@
+/* Define a animação de movimento contínuo */
+@keyframes tickerMovement {
+    0% {
+        transform: translateX(-100%); /* Começa à direita fora da tela */
+    }
+    100% {
+        transform: translateX(100%); /* Vai até a posição inicial, mas à esquerda */
+    }
+}
+
+.ticker-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
 #ticker {
     display: flex;
     width: max-content;
-    animation: tickerMove 25s linear infinite;
-}
-
-@keyframes tickerMove {
-    0% {
-        transform: translateX(0%);
-    }
-    100% {
-        transform: translateX(-50%);
-    }
+    animation: tickerMovement 60s linear infinite;
 }
