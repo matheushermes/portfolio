@@ -1,0 +1,42 @@
+@keyframes down {
+    from {
+        transform: translateY(-2000px);
+        opacity: 100%;
+    } to {
+        opacity: 0;
+    }
+}
+
+@keyframes up {
+    from {
+        transform: translateY(2000px);
+        opacity: 100%;
+    } to {
+        opacity: 0;
+    }
+}
+
+
+
+svg {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.Down {
+    animation: down 6s ease-in-out infinite;
+}
+
+.Up {
+    animation: up 5s ease-in-out infinite;
+}
+
+@media screen and (min-height: 52.438rem) {
+    svg {
+        height: 100vh;
+    }
+}
+
