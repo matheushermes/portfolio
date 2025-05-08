@@ -19,7 +19,7 @@ let writeDescription = () => {
         description.innerHTML += '<span class="cursor">|</span>';
 
         index++;
-        setTimeout(writeDescription, 200); //Intervalo entre cada letra;
+        setTimeout(writeDescription, 500); //Intervalo entre cada letra;
     }
 }
 
