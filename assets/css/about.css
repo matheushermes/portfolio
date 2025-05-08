@@ -1,0 +1,15 @@
+@keyframes pulse-border {
+    0% {
+        border-color: #0038FF; /* Cor inicial */
+    }
+    50% {
+        border-color: #1d293d; /* Cor intermediária */
+    }
+    100% {
+        border-color: #0038FF; /* Cor final */
+    }
+}
+
+.animate-border {
+    animation: pulse-border 2s infinite ease-in-out;
+}
